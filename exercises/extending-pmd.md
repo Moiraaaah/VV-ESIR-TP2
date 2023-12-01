@@ -23,3 +23,25 @@ Use your rule with different projects and describe you findings below. See the [
 
 ## Answer
 
+Notre règle en XML donne : 
+```xml
+<rule name="3ifs"
+      language="java"
+      message="Trop de if"
+      class="net.sourceforge.pmd.lang.rule.XPathRule">
+   <description>
+
+   </description>
+   <priority>3</priority>
+   <properties>
+      <property name="version" value="3.1"/>
+      <property name="xpath">
+         <value>
+<![CDATA[
+//IfStatement[//IfStatement//IfStatement]
+]]>
+         </value>
+      </property>
+   </properties>
+</rule>
+```
