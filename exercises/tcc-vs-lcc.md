@@ -6,3 +6,4 @@ A refresher on TCC and LCC is available in the [course notes](https://oscarlvp.g
 
 ## Answer
 
+Le seul cas dans lequel ces métriques produiront la même valeur, c'est si toutes les méthodes partagent au moins une variable entre elles (tous les noeuds du graphes ont des liens directs entre eux). Si dans un graphe, nous avons plusieurs sous-graphes, il faut qu'il n'y ait aucun lien entre eux pour que TCC et LCC renvoient la même valeur.  
