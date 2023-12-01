@@ -24,3 +24,4 @@ public class ExempleCohesionClasse {
 }
 ```
 
+Il est impossible que LCC ait une valeur inférieure à TCC. TCC utilise les liens directs et LCC les liens directs et indirects. LCC a donc forcément au moins autant de liens que TCC. 
