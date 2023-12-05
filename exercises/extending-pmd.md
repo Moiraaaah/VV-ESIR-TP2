@@ -45,3 +45,5 @@ Notre règle en XML donne :
    </properties>
 </rule>
 ```
+
+Nous avons trouvé au moins une fois 3 prédicats "if" encapsulés les uns dans les autres dans Apache Commons Lang. Cette pratique peut créer de la confusion et donc engendrer des erreurs de la part du développeur.
